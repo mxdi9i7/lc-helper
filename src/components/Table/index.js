@@ -13,7 +13,7 @@ export default function Table({ data }) {
 			</div>
 			<div className='body'>
 				{data.map((v) => (
-					<div className='cell-row'>
+					<div key={v.question_id} className='cell-row'>
 						<div className='cell'>
 							<a href={v.link} target='_blank' rel='noopener noreferrer'>
 								{v.question_id}
