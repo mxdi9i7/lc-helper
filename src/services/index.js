@@ -1,4 +1,4 @@
-import { auth, db } from './config';
+import { db } from './config';
 
 const fetchAllQuestions = () => {
 	return db
